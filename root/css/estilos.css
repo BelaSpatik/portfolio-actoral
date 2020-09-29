@@ -894,9 +894,12 @@ nav ul li {
     background-color: #FCCE14;
 }
 
-.caja-flex img {
-    width: 35%;
+.caja-flex a {
     margin: 20px;
+}
+
+.caja-flex img {
+    width: 100%;
     border: solid 3px white;
     box-shadow: 1px 1px 10px rgb(160, 158, 158);
 }
@@ -955,13 +958,12 @@ nav ul li {
     flex-direction: row-reverse;
 }
 
-.caja-flex-1 img {
-    /*width: 37%;*/
+/*.caja-flex-1 img {
     width: 35%;
     margin: 20px;
     border: solid 3px white;
     box-shadow: 1px 1px 10px rgb(160, 158, 158);
-}
+}*/
 
 .caja-flex-1 .listado {
     padding-right: 5px;
@@ -1409,7 +1411,7 @@ footer {
         padding: 0px;
     }
 
-    .caja-flex img {
+    .caja-flex a {
         width: 50%;
         margin: 10px;
     }
@@ -1674,7 +1676,7 @@ footer {
         padding: 0px;
     }
 
-    .caja-flex img {
+    .caja-flex a {
         width: 50%;
         margin: 10px;
     }
